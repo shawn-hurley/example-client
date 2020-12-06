@@ -19,7 +19,7 @@ replace k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.0.0-
 //openshift deps pinning
 replace github.com/openshift/api => github.com/openshift/api v0.0.0-20190716152234-9ea19f9dd578
 
-replace github.com/konveyor/mig-controller => /home/shurley/repos/konveyor/mig-controller
+replace github.com/konveyor/mig-controller => github.com/shawn-hurley/mig-controller v0.0.0-20201124183406-31bc6e9427ac
 
 require (
 	cloud.google.com/go/storage v1.12.0 // indirect
